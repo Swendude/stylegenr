@@ -1,10 +1,10 @@
 name:                stylegenr
 version:             0.1.0.0
-github:              "githubuser/stylegenr"
+github:              "swendude/stylegenr"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2022 Author name here"
+author:              "Swendude"
+maintainer:          "swenmulderij@gmail.com"
+copyright:           "2022 swendude"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,8 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- text
+- hspec
 
 library:
   source-dirs: src
