@@ -24,7 +24,7 @@ dependencies:
 - text
 - hspec
 - containers
-
+- random
 library:
   source-dirs: src
   default-extensions:
