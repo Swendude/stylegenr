@@ -1,4 +1,4 @@
-module Lib where
+module TextCleaning where
 
 import Data.Text qualified as T
 import Text.Printf qualified as String
