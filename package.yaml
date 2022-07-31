@@ -26,6 +26,10 @@ dependencies:
 
 library:
   source-dirs: src
+  default-extensions:
+    - OverloadedStrings
+    - GADTs
+    - ImportQualifiedPost
 
 executables:
   stylegenr-exe:

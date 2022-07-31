@@ -30,6 +30,10 @@ library
       Paths_stylegenr
   hs-source-dirs:
       src
+  default-extensions:
+      OverloadedStrings
+      GADTs
+      ImportQualifiedPost
   build-depends:
       base >=4.7 && <5
     , hspec
